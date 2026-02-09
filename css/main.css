@@ -396,7 +396,7 @@ body {
 @media screen and (max-width:1090px) 
 {
     .header_container{
-           flex-direction: col;
+           flex-direction: column;
            gap:10px
     }
 }
@@ -476,3 +476,4 @@ body {
 
 
 }
+
