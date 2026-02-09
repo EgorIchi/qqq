@@ -393,7 +393,13 @@ body {
     font-weight: bold;
 }
 
-@media screen and (max-width:1090px) {}
+@media screen and (max-width:1090px) 
+{
+    .header_container{
+           flex-direction: col;
+           gap:10px
+    }
+}
 
 @media screen and (max-width:1380px) {
     .contact_container {
@@ -467,5 +473,6 @@ body {
     .header_container>.header_links_contact {
         display: none;
     }
+
 
 }
