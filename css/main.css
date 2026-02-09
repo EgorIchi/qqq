@@ -402,6 +402,34 @@ body {
            flex-direction: column;
            gap:30px;
     }
+    header{
+        padding-left:40px;
+        padding-right:40px;
+    }
+    .header_navbar{
+        margin-left:0px;
+        
+    }
+    .header_container>.header_navbar ul li a{
+        font-size:20px;
+    }
+    section{
+        padding-left:40px;
+        padding-right:40px;
+    }
+    .header_container > .header_button button{
+        font-size:20px; 
+    }
+    .hero_text button{
+        font-size:20px;
+    }
+    .container_card>.card .card_text {
+        font-size:20px;
+    }
+    .link_contact a{
+        font-size:20px;
+    }
+ 
 }
 
 @media screen and (max-width:1380px) {
@@ -479,6 +507,7 @@ body {
 
 
 }
+
 
 
 
