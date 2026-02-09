@@ -25,7 +25,9 @@ section {
     letter-spacing: 0%;
     margin-top: 20px;
 }
-
+.section_container{
+    padding-bottom:80px;
+}
 .hero_text button {
     margin-top: 60px;
     padding-block: 15px;
@@ -477,6 +479,7 @@ body {
 
 
 }
+
 
 
 
