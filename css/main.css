@@ -397,7 +397,7 @@ body {
 {
     .header_container{
            flex-direction: column;
-           gap:10px
+           gap:10px;
     }
 }
 
@@ -476,4 +476,5 @@ body {
 
 
 }
+
 
