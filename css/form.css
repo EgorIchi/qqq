@@ -1,0 +1,16 @@
+.fade-in-element {
+    opacity: 1;
+    transform: scale(0.95);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border-radius: 16px;
+    margin: 50px auto;
+    background-color: red;
+}
+
+.show {
+    opacity: 1;
+    transform: scale(1);
+}

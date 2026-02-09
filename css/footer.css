@@ -1,0 +1,150 @@
+.footer_container {
+    background-image: url("../img-photoaidcom-darken.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 417px;
+    padding-bottom: 22px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Закруглённые углы, если нужно */
+
+
+}
+
+.footer_container>.footer_navbar {
+    margin-left: 40px;
+}
+
+.footer_container>.footer_navbar ul {
+    display: flex;
+    column-gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.footer_logo>.logo {
+    padding-inline: 34px;
+    padding-block: 19px;
+    color: white;
+    background-color: #2B7AF1;
+}
+
+.footer_container>.footer_navbar ul li a {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: 2px underline transparent;
+
+}
+
+.footer_container>.footer_navbar ul li a:hover {
+    transition: all 0.5s ease;
+    text-decoration: 2px underline white;
+}
+
+.footer_container>.footer_navbar ul li a:not(:hover) {
+    transition: all 0.5s ease;
+    text-decoration: 2px underline transparent;
+}
+
+.footer_links_contact {
+    margin-left: 52px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.footer_social_button {
+    margin-left: 52px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.footer_social_button button {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #2B7AF1;
+    border: 1px solid #2B7AF1;
+
+
+}
+
+@media screen and (max-width:1290px) {
+
+    .footer_container p {
+        font-size: 13px;
+    }
+
+    .link_contact a {
+        font-size: 13px;
+    }
+
+    .footer_container>.footer_navbar ul li a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .footer_links_contact {
+        margin-left: 20px;
+        column-gap: 10px;
+    }
+
+    .footer_social_button {
+        margin-left: 20px;
+        column-gap: 10px;
+    }
+
+    .footer_container>.footer_navbar {
+        margin-left: 20px;
+
+    }
+
+    .footer_container>.footer_navbar ul {
+        column-gap: 20px;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    .footer_container>.footer_navbar {
+        display: none;
+    }
+
+    .footer_container {
+        justify-content: space-between;
+        padding-inline: 10px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        justify-content: center;
+        padding-top:100px;
+    }
+
+    .footer_links_contact {
+        row-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+     .footer_container p {
+        font-size: 20px;
+    }
+
+    .link_contact a {
+        font-size: 20px;
+    }
+
+    .footer_container>.footer_navbar ul li a {
+        font-size: 20px;
+    }
+}
