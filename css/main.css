@@ -102,6 +102,7 @@ section {
     display: flex;
     align-items: center;
     column-gap: 99px;
+    padding-bottom:80px;
 
 
 }
@@ -397,7 +398,7 @@ body {
 {
     .header_container{
            flex-direction: column;
-           gap:10px;
+           gap:30px;
     }
 }
 
@@ -476,5 +477,6 @@ body {
 
 
 }
+
 
 
